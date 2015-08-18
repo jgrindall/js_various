@@ -1,0 +1,34 @@
+{
+  	"name": "2simple2dam",
+  	"version": "0.0.1",
+  	"description": "2simple2dam",
+    "engines": {
+      "node": "0.10.x"
+    },
+  	"main": "web.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jgrindall/2damprototype.git"
+    },
+  	"scripts": {
+    	"test": "echo \"Error: no test specified\" && exit 1"
+ 	  },
+  	"author": "jgrindall",
+  	"license": "BSD",
+  	"dependencies": {
+    	"express": "latest",
+    	"grunt": "latest",
+    	"grunt-contrib-jshint": "latest",
+    	"grunt-contrib-nodeunit": "latest",
+    	"grunt-contrib-uglify": "latest",
+    	"grunt-contrib-requirejs":"latest",
+    	"grunt-contrib-copy":"latest",
+    	"grunt-contrib-jshint":"latest",
+    	"grunt-contrib-clean":"latest",
+      "madge":"latest",
+      "grunt-amdcheck":"latest"
+  	}
+}
+
+
+	
